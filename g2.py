@@ -3,9 +3,9 @@
 """Generating files based on a template and a CSV list of keywords to be replaced
 
 Usage:
-  bccb.py --template=<template_file> --data=<keywords_csv>
-  bccb.py -h | --help
-  bccb.py -v | --version
+  g2.py --template=<template_file> --data=<keywords_csv>
+  g2.py -h | --help
+  g2.py -v | --version
 
 """
 
