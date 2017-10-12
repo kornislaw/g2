@@ -24,6 +24,6 @@ with open(arguments['--template'], 'r') as t:
             data = template
             for i in range(0,len(headers)):  # iterating over headers
                 data = data.replace(headers[i].strip(), r[i+1])
-            with open(r[0], 'w') as o:  # store output in json
+            with open('output/'+r[0], 'w') as o:  # store output in json
                 o.write(data)
                 print(r[0]+' saved')
